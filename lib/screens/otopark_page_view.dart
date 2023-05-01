@@ -16,7 +16,9 @@ class _OtoparkPageViewState extends State<OtoparkPageView> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ProjectColors().scafoldBackGroundColor,
-      body: ListView.builder(itemBuilder: ((context, index) {})),
+      body: ListView.builder(
+        itemBuilder: ((context, index) {}),
+      ),
     );
   }
 }
